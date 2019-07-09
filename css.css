@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+width:100%;
+overflow-x:hidden;
+}
+
+body h1{
+font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+text-align:center; 
+text-decoration:underline; 
+font-weight:bold;
+ color:#603;	
+}
+
+/* Nav bar brand*/
+#brandcontainer{
+	width:100%;
+}
+
+#brandcontainer a:hover{
+text-decoration:none;	
+}
+
+/*  End of Navbar brand */
+
+
+/* Search*/
+#search{
+	padding-top:20px;
+	float:right;	
+}
+#searchbtn{
+	background-color:#603;
+	color:white;
+	
+}
+
+
+/* Navigation */
+#navigationcontainer{
+margin-left:0px;
+width:100%;
+
+	
+}
+
+#ulnavigation{
+	width:100%;
+	background-color:#603;
+	
+
+	
+}
+#ulnavigation li{
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+#ulnavigation li a{
+	background-color:none;
+	color:white;
+}
+#ulnavigation li a:hover{
+	background-color:transparent;
+	color:white;
+}
+
+#ulnavigation li a:focus{
+	background-color:#97004B;
+	color:white;
+}
+
+#ulnavigation li a:active{
+	background-color:#97004B;
+	color:white;
+}
+
+
+
+
+/* End of Navigation */
+
+/* Landing Page or Image slide show*/
+
+#imagescontainer{
+width:100%;	
+}
+
+#images{
+width:100%;
+height:500px;
+}
+
+/* For the carousel indicators */
+#indicators li{
+height:5px;
+width:30px;
+}
+
+#indicators li.active{
+background-color:#600;
+}
+
+/* For the carousel caption */
+#textcover{
+background-color:#603;
+padding:10px;
+border-radius:5px;
+margin-bottom:10px;
+font-family:font-size:60px; font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+}
+
+#quote{
+border-radius:50px;	
+}
+
+/* About us */
+
+#aboutuscontainer{
+	margin-top:90px;	
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+}
+
+#aboutimages{
+	margin-top:20px;
+	height:350px;
+	width:400px;
+}
+
+/* Facts About Us*/
+#factsdiv{
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+	background-color:#006697;
+	color:white;
+	padding:20px;
+	
+}
+
+#border{
+	border-bottom:2px solid #FFF;
+	padding-top:20px;	
+}
+/* Services */
+
+#servicescontainer{
+	margin-top:70px;
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+	
+	
+}
+
+/* Progress bar */
+#progresscontainer{
+	width:100%;
+	background-color:#069;
+	margin-top:80px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+
+#progressbar{
+	margin-top:10px;
+	height:30px;
+	
+}
+
+
+
+/* Team   */
+#teamcontainer{
+	margin-top:100px;
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+	
+}
+
+#teamcontainer a{
+	text-decoration:none;
+	color:white;
+	text-align:center;
+}
+
+
+#teamcontainer a:hover{
+	background-color:#CCC;
+
+}
+
+
+#teamimage{
+	height:100%;
+	width:100%;
+	
+}
+
+#teamcontain{
+padding-top:30px;
+}
+
+/* Portfolio */
+#portfoliocontainer{
+	padding-top:20px;
+margin-top:10px;	
+background-color:#069;
+font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+		
+}
+
+#portfoliocontainer a{
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+text-decoration:none;
+font-size:18px;
+color:#600;
+}
+
+/* Portfolio two */
+#portfoliocontainertwo{
+	background-color:#069;	
+}
+
+#portfoliocontainertwo a{
+text-decoration:none;
+font-size:18px;
+color:#600;	
+}
+
+/* Pricing Table */
+#pricingone{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	background-color:#002953;
+	border: 1px solid #063;
+	color:white;
+	line-height:50px;
+	border-radius:5px;
+	
+	
+}
+
+#pricing{
+padding-left:20px;
+	
+}
+
+#borderpricing{
+	border-bottom:2px solid #FFF;
+	
+}
+
+#signupbtn{
+	width:60%;
+ border-radius:50px;
+ font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;	
+}
+
+#pricingreg{
+float:right;
+line-height:50px;
+padding-right:9px;
+	
+}
+
+<!-- Testimonial -->
+#testimonialcontainer{
+width:100%;
+}
+#testimonialimage{
+width:100%;
+height:400px;
+	
+}
+#carouselcaption{
+	color:#603;
+	margin-bottom:50px;
+	
+}
+
+#testimonialindicators li{
+width:30px;
+height:30px;	
+}
+
+#testimonialindicators li.active{
+background-color:#603;
+}
+
+/* Blog */
+
+#blogdiv{
+padding-top:20px;	
+}
+
+#blogimages{
+width:100%;
+	
+}
+
+#blogdiv p{
+	font-family:aladin;
+	
+}
+
+#readmore{
+border-radius:50px;
+background-color:#603	
+}
+
+#blogdiv a{
+color:white;	
+}
+
+/* Subscribe */
+
+#subscribecontainer{
+	width:100%;
+	
+}
+#newsletter{
+padding-top:80px;	
+}
+
+.jumbotron{
+	width:100%;
+	background-image:url(img/100.jpg);
+	background-size:auto;
+	background-repeat:no-repeat;
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;	
+}
+
+#subscribediv{
+	width:70%;
+	margin-left:100px;
+	padding-top:20px;
+	
+}
+
+#subscribeemail{
+	height:50px;
+	border-bottom-left-radius:10px;
+	
+}
+
+#subscribe{
+height:50px;
+font-size:18px;	
+}
+
+/* Faq question */
+#faqdiv{
+	margin-top:50px;
+margin-bottom:350px;	
+}
+
+
+
+
+/* Contact Us */
+
+#contactcontainer{
+	font-family:aladin;
+}
+
+
+
+#contactdiv{
+margin-top:25px;	
+}
+
+/*Contact Us Two */
+#contactone{
+	font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+	text-align:center;
+	font-size:18px;
+	margin-top:20px;
+	color:#603;
+}
+
+#contactone ul{
+	list-style-type:none;
+	margin-left:0px;
+	
+}
+
+#contactone ul li{
+	display:inline-block;
+	padding:20px;
+	border: 2px solid #600;
+	border-radius:50px;
+	
+}
+
+#contact ul li a:hover{
+	background-color:#CCC;
+	
+}
+
+#contactform{
+	margin-top:30px;
+	
+}
+
+#button{
+height:50px;	
+border-radius:50px;
+margin-left:200px;
+background-color:#603;
+color:white;
+}
+
+#footercontainer{
+width:100%;
+color:#006;	
+font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif;
+font-size:18px;
+}
+
